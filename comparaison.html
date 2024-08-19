@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparaison des Plateformes de Chatbot</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: #043678;
+      font-weight: 900;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #043678;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    td {
+      background-color: #f3f6fc;
+      font-size: 16px;
+    }
+
+    tr:hover td {
+      background-color: #d3e3fd;
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .conclusion {
+      background-color: #d3e3fd;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 40px;
+      font-size: 18px;
+    }
+
+    .conclusion h2 {
+      color: #043678;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Comparaison des outils de chatbot</h1>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Plateforme</th>
+          <th>Facilité d'utilisation</th>
+          <th>Public cible</th>
+          <th>Points forts</th>
+          <th>Limites</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="images/tidio-logo-vector-removebg-preview.png" alt="Tidio" class="icon"> Tidio</td>
+          <td>Très facile, pas de codage nécessaire.</td>
+          <td>Petites entreprises et e-commerce.</td>
+          <td>Interface intuitive, support client.</td>
+          <td>Moins flexible pour des solutions complexes.</td>
+        </tr>
+        <tr>
+          <td><img src="images/Dialogflow-removebg-preview.png" alt="Dialogflow" class="icon"> Dialogflow </td>
+          <td>Nécessite des compétences en développement.</td>
+          <td>Développeurs et entreprises avec des besoins NLP avancés.</td>
+          <td>Puissant moteur NLP, intégration Google Cloud.</td>
+          <td>Courbe d'apprentissage.</td>
+        </tr>
+        <tr>
+          <td><img src="images/rasa-logo.png" alt="Rasa" class="icon"> Rasa</td>
+          <td>Nécessite des compétences en développement.</td>
+          <td>Développeurs cherchant une personnalisation maximale.</td>
+          <td>Hautement personnalisable, open-source.</td>
+          <td>Mise en place initiale complexe.</td>
+        </tr>
+        <tr>
+          <td><img src="images/botpress-vector-logo-removebg-preview.png" alt="Botpress" class="icon"> Botpress</td>
+          <td>Interface conviviale mais nécessite des compétences en développement pour des personnalisations avancées.</td>
+          <td>Développeurs et entreprises cherchant une solution open-source.</td>
+          <td>Personnalisable, gestion multicanal.</td>
+          <td>Courbe d'apprentissage pour des fonctionnalités avancées.</td>
+        </tr>
+        <tr>
+          <td><img src="images/microsoft-bot-framework-logo-removebg-preview.png" alt="Microsoft Bot Framework" class="icon"> Microsoft Bot Framework</td>
+          <td>Nécessite des compétences techniques avancées.</td>
+          <td>Développeurs et grandes entreprises.</td>
+          <td>Flexibilité, intégration Azure, outils puissants.</td>
+          <td>Peut être coûteux, courbe d'apprentissage.</td>
+        </tr>
+        <tr>
+          <td><img src="images/wit-removebg-preview.png" alt="Wit.ai" class="icon"> Wit.ai</td>
+          <td>Facile pour des cas d'utilisation basiques.</td>
+          <td>Utilisateurs cherchant des intégrations simples avec Facebook.</td>
+          <td>Gratuit, simple à utiliser.</td>
+          <td>Moins puissant, personnalisation limitée.</td>
+        </tr>
+        <tr>
+          <td><img src="images/logoIBM-removebg-preview.png" alt="IBM Watson" class="icon"> IBM Watson Assistant</td>
+          <td>Nécessite des compétences en développement pour des intégrations avancées.</td>
+          <td>Entreprises avec des besoins NLP avancés.</td>
+          <td>Moteur NLP robuste, outils analytiques.</td>
+          <td>Coûteux, nécessite des compétences techniques.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="conclusion">
+      <h2>Conclusion</h2>
+      <p>Le choix de l'outil dépendra de vos besoins spécifiques et de votre niveau de compétence technique. Pour des solutions simples et rapides, Tidio ou Wit.ai pourraient être suffisants. Pour des projets plus complexes nécessitant une personnalisation avancée, Rasa, Botpress ou Microsoft Bot Framework seraient plus appropriés. Dialogflow et IBM Watson Assistant offrent un bon compromis entre puissance et facilité d'utilisation, avec des fonctionnalités NLP avancées et une bonne intégration dans des écosystèmes plus larges.</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
